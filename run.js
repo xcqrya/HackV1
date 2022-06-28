@@ -8,7 +8,7 @@ const questions = [
         type: "input",
         name: "authorization",
         message: color("Auth disini gblk:"),
-        prefix: `${color("[", "blue")}+${color("]", "redBright")}`,
+        prefix: `${color("[", "blue")}Bot${color("]", "blue")}`,
         suffix: "~",
         validate: function (input) {
             const done = this.async();
@@ -33,7 +33,7 @@ const questions = [
         type: "list",
         name: "round",
         message: color("Jujur Stage brp?:"),
-        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        prefix: `${color("[", "blue")}Bot${color("]", "blue")}`,
         suffix: "~",
         choices: ["Stage 1", "Stage 2", "Stage 3"],
         filter: (value) => {
@@ -48,7 +48,7 @@ const questions = [
         type: "input",
         name: "interval",
         message: color("Delay(1500 aman biasanya):"),
-        prefix: `${color("[", "redBright")}+${color("]", "redBright")}`,
+        prefix: `${color("[", "blue")}Bot${color("]", "blue")}`,
         suffix: "~",
         default: 1500,
         validate: function (input) {
