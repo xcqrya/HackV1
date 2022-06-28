@@ -100,8 +100,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ."
-    "run": "node ."
+    "test": "node .",
+    "run": "node .",
     "start": "node ."
   },
   "repository": {
