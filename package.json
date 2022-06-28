@@ -101,10 +101,12 @@
   "devDependencies": {},
   "scripts": {
     "test": "node ."
+    "run": "node ."
+    "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "blm ada"
+    "url": "https://github.com/xcqrya/HackV1.git"
   },
   "keywords": [
     "stumble"
